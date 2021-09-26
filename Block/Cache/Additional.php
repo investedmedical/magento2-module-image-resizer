@@ -19,6 +19,6 @@ class Additional extends MagentoCacheAdditional
      */
     public function getCleanResizedImagesUrl()
     {
-        return $this->getUrl('staempfli_imageresizer/cache/cleanResizedImages');
+        return $this->getUrl('imageresizer/cache/cleanResizedImages');
     }
 }

@@ -9,7 +9,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
-        <route id="staempfli_imageresizer" frontName="staempfli_imageresizer">
+        <route id="imageresizer" frontName="imageresizer">
             <module name="Staempfli_ImageResizer" />
         </route>
     </router>

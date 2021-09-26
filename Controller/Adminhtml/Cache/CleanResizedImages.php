@@ -56,7 +56,7 @@ class CleanResizedImages extends MagentoAdminCache
     {
         try {
             $this->resizerCache->clearResizedImagesCache();
-            $this->_eventManager->dispatch('staempfli_imageresizer_clean_images_cache_after');
+            $this->_eventManager->dispatch('imageresizer_clean_images_cache_after');
             $this->messageManager->addSuccessMessage(__('The resized images cache was cleaned.'));
         } catch (LocalizedException $e) {
             $this->messageManager->addErrorMessage($e->getMessage());
